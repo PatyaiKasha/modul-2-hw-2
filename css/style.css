@@ -1,0 +1,156 @@
+/*DZ_2*/
+
+
+/*1*/
+
+body {
+    background: #AFAFC2;
+    font-family: sans-serif;
+}
+
+
+/*2*/
+
+.rect-border-2 {
+    padding-left: 5px;
+    width: 270px;
+    border: 1px solid #eee;
+    font-family: serif;
+}
+
+.rect-border-2 h2 {
+    background-color: red;
+    width: 90px;
+}
+
+.rect-border-2 h2+p {
+    background-color: blue;
+    width: 240px;
+    height: 40px;
+}
+
+.rect-border-2 hr+p {
+    background-color: yellow;
+    width: 240px;
+    height: 40px;
+}
+
+
+/*3*/
+
+.one {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+.two {
+    width: 90px;
+    height: 30px;
+    background-color: orange;
+}
+
+.three {
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+}
+
+.rect-border-3 {
+    min-width: 50px;
+    border: 1px solid #eee;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+/*4*/
+
+.sub-sup-1 {
+    background-color: #FF733A;
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    font-family: serif;
+}
+
+.sub-sup-1 span,
+.sub-sup-1 sub {
+    text-transform: uppercase;
+}
+
+
+/*5*/
+
+.headers {
+    display: inline-block;
+    min-width: 30px;
+    padding: 10px 100px 10px 5px;
+    background-color: #D6D7BE;
+    font-family: serif;
+}
+
+.headers h1 {
+    color: #532601;
+    font-family: sans-serif;
+}
+
+.headers h3 {
+    color: #875327;
+}
+
+.headers h4 a {
+    color: #2C5805;
+}
+
+
+/*6*/
+
+.formula-1 {
+    font-family: serif;
+    border: 2px solid #000;
+    border-radius: 2px;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+
+/*7*/
+
+.formula-2 {
+    font-family: serif;
+    border: 2px solid #000;
+    border-radius: 2px;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+.formula-2>p span {
+    font-style: italic;
+}
+
+.formula-2>p {
+    margin-left: 5px;
+}
+
+.polynomial {
+    margin-left: 5px;
+    font-style: italic;
+}
+
+sub,
+sup {
+    font-style: normal;
+}
+
+.polynomial sub {
+    color: blue;
+}
+
+.polynomial sup {
+    color: red;
+}
