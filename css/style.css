@@ -23,36 +23,41 @@ body {
     width: 90px;
 }
 
-.rect-border-2 h2+p {
-    background-color: blue;
+h2+p,
+hr+p {
     width: 240px;
     height: 40px;
 }
 
-.rect-border-2 hr+p {
+h2+p {
+    background-color: blue;
+}
+
+hr+p {
     background-color: yellow;
-    width: 240px;
-    height: 40px;
 }
 
 
 /*3*/
 
+.one,
+.two,
+.three {
+    height: 30px;
+}
+
 .one {
     width: 30px;
-    height: 30px;
     background-color: red;
 }
 
 .two {
     width: 90px;
-    height: 30px;
     background-color: orange;
 }
 
 .three {
     width: 150px;
-    height: 30px;
     background-color: blue;
 }
 
@@ -76,6 +81,16 @@ body {
     text-align: center;
     line-height: 100px;
     font-family: serif;
+    /*=>hover test<=*/
+    box-sizing: border-box;
+}
+
+
+/*=>hover test<=*/
+
+.sub-sup-1:hover {
+    border-bottom: 5px solid #E43F3A;
+    transition: .05s;
 }
 
 .sub-sup-1 span,
@@ -112,6 +127,7 @@ body {
 
 .formula-1 {
     font-family: serif;
+    width: 450px;
     border: 2px solid #000;
     border-radius: 2px;
     padding-left: 5px;
@@ -123,6 +139,7 @@ body {
 
 .formula-2 {
     font-family: serif;
+    width: 450px;
     border: 2px solid #000;
     border-radius: 2px;
     padding-left: 5px;
